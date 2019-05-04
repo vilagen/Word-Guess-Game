@@ -5,7 +5,6 @@
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
-    <script type="text/javascript" src ="assets/javascript/game.js"></script>
     <title>
         90's Bands
     </title>
@@ -23,7 +22,7 @@
 
  <div class = "row mt-5">
 
- <div class = "col-sm-9 my-auto">
+ <div class = "col-sm-9 col-md-9 col-lg-9 my-auto">
   <p>Guesses: <span id = "Guess"></span></p>
   <br>
   <p> Wins: <span id = "Wins"></span></p>
@@ -34,7 +33,7 @@
   <br> 
  </div>
 
-  <div class = "col-sm-3 my-auto">
+  <div class = "col-sm-3 col-md-3 col-lg-3 my-auto">
     <p class = "text-center"> Answer:
     <br>
     <span id = "displayanswer"></span> </p>
@@ -51,38 +50,7 @@
   <img class = "mx-auto d-block w-50" src = "assets/images/90sMusic.png">
  </footer>  
 
+<script type="text/javascript" src ="assets/javascript/game.js"></script>
 
-<script>
-
-
-// My pre-game plan was as followerd:
-
-// make an array of random words that can appear.
-// have to find a way to get computer to guess a word
-// need to display how many letters there are
-// user has to guess a letter
-// user has only so many tries
-// must set a condition if user loses
-// must set a condition if user wins
-
-// below are just some variables to appear on the html of the page.
-
-var Guesses = 7;
-
-var Wincount = 0;
-
-var Losecount = 0;
-
-var Letters = [];
-
-
-document.getElementById("Guess").innerHTML = Guesses;
-document.getElementById("Wins").innerHTML = Wincount;
-document.getElementById("Losses").innerHTML = Losecount;
-document.getElementById("Attempts").innerHTML = Letters;
-
-game();
-
-</script>
 </body>
 </html>

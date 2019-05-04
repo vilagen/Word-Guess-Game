@@ -1,3 +1,29 @@
+// My pre-game plan was as followerd:
+
+// make an array of random words that can appear.
+// have to find a way to get computer to guess a word
+// need to display how many letters there are
+// user has to guess a letter
+// user has only so many tries
+// must set a condition if user loses
+// must set a condition if user wins
+
+// below are just some variables to appear on the page.
+
+var Guesses = 7;
+
+var Wincount = 0;
+
+var Losecount = 0;
+
+var Letters = [];
+
+
+document.getElementById("Guess").innerHTML = Guesses;
+document.getElementById("Wins").innerHTML = Wincount;
+document.getElementById("Losses").innerHTML = Losecount;
+document.getElementById("Attempts").innerHTML = Letters;
+
 // created the whole game as one function so we can recall the function within itself and restart the game.
 
 function game() {
@@ -103,3 +129,4 @@ function game() {
                 }
             }
         }
+game()
