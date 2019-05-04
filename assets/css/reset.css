@@ -1,0 +1,42 @@
+@media screen and (max-width: 980px) {
+    #img {
+        float: left;
+        top: 0;
+        margin: 0px 15px 0px 0px;
+        width: 40%;
+        height: auto;
+    }
+
+    p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #img {
+        float: left;
+        top: 0;
+        margin: 0px 15px 0px 0px;
+        width: 40%;
+        height: auto;
+    }
+
+    p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    #img {
+        padding: 0 25%;
+        width: 50%;
+        height: auto
+    }
+    
+    p {
+        clear: both;
+        font-size: 15px;
+    }
+}
+
