@@ -4,4 +4,4 @@ Thank you for visiting my word guessing game. This was made early when learning 
 
 ## Link to the game:
 
-### 
+### https://vilagen.github.io/Word-Guess-Game/
